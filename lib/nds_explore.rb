@@ -27,7 +27,7 @@ def print_first_directors_movie_titles
   end
 
   while i < titles.length do
-    print titles[i]
+    puts titles[i]
     i += 1
   end
 
