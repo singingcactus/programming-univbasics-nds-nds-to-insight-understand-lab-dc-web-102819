@@ -9,9 +9,9 @@ def pretty_print_nds(nds)
   nil
 end
 
-pretty_print_nds(0)
-
 def print_first_directors_movie_titles
+  puts directors_database[0][1][0]
+
   titles = []
   director_index = 0
   i = 0
