@@ -18,7 +18,7 @@ def print_first_directors_movie_titles
     movie_index = 0
 
     while movie_index < directors_database[director_index].length do
-      puts "the data at #{director_index}, #{movie_index} is #{directors_database[director_index][movie_index]}"
+      puts "the data at #{director_index} is #{directors_database[director_index]}"
         titles[movie_index] = directors_database[director_index][movie_index]
         movie_index += 1
     end
