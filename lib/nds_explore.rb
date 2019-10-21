@@ -19,7 +19,8 @@ def print_first_directors_movie_titles
     movie_selection = 0
 
     while movie_selection < directors_database[director_index][movie_index].length do
-        titles[movie_selection] = directors_database[director_index][movie_index][movie_selection][:titles]
+        titles[movie_selection] = directors_database[director_index][movie_index][movie_selection]
+        puts "The data at #{director_index}, #{movie_index}, #{movie_selection} is directors_database[director_index][movie_index][movie_selection]"
         movie_selection += 1
     end
 
