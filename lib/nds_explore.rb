@@ -9,6 +9,8 @@ def pretty_print_nds(nds)
   nil
 end
 
+pretty_print_nds(0)
+
 def print_first_directors_movie_titles
   titles = []
   director_index = 0
